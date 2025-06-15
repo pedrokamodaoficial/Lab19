@@ -1,0 +1,155 @@
+.consultas {
+  display: flex;
+  min-height: 500px;
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.finalizadas .btn {
+  width: 146.3px;
+  border-color: #139548 !important;
+  background-color: #139548 !important;
+  border-radius: 15px !important;
+}
+
+.modalSintomas {
+  display: flex;
+  justify-content: center;
+  text-align: left;
+  flex-direction: column;
+}
+
+.listSintomas {
+  display: flex;
+  flex-direction: column;
+  font-weight: bold;
+}
+
+.listSintomas li {
+  margin-top: .5em;
+  text-align: left;
+}
+
+.listSintoma {
+  font-weight: 100;
+}
+
+.divSintomas {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.marcada .btn {
+  width: 146.3px;
+  border-radius: 15px !important;
+}
+
+@media screen and (max-width: 1024px) {
+  .consultas {
+    width: 700px;
+    flex-direction: column;
+    align-items: center;
+  }
+  .consulta2 {
+    margin-top: 2em;
+  }
+}
+
+.consultas p {
+  font-size: 24px;
+}
+
+.consulta {
+  display: flex;
+  text-align: center;
+  min-height: 250px;
+  align-items: center;
+  flex-direction: column;
+}
+
+.consulta2 {
+  display: flex;
+  text-align: center;
+  min-height: 250px;
+  align-items: center;
+  flex-direction: column;
+}
+
+.consulta h2 {
+  width: 400px;
+  font-size: 2.2em;
+  color: #fac710;
+  text-align: center;
+  margin-bottom: 0;
+  font-weight: bolder;
+  padding-bottom: 20px;
+  border-bottom: solid 6px #fac710;
+}
+
+.consulta2 h2 {
+  width: 400px;
+  font-size: 2.2em;
+  color: #139548;
+  text-align: center;
+  margin-bottom: 0;
+  font-weight: bolder;
+  padding-bottom: 20px;
+  border-bottom: 6px solid #139548;
+}
+
+.marcada {
+  width: 500px;
+  display: flex;
+  height: 250px;
+  color: #3a3a3a;
+  font-size: 1.5em;
+  padding-top: 10px;
+  max-height: 250px;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  text-transform: capitalize;
+  background-color: #e6e6e6;
+  border-radius: 25px 0 0 25px;
+}
+
+.finalizadas {
+  width: 500px;
+  display: flex;
+  height: 250px;
+  color: #3a3a3a;
+  font-size: 1.5em;
+  max-height: 250px;
+  padding-top: 48px;
+  align-items: center;
+  border-radius: 25px;
+  flex-direction: column;
+  justify-content: center;
+  text-transform: capitalize;
+}
+
+.consulta2 :nth-child(2n + 3) {
+  background-color: #e6e6e6;
+  border-radius: 0px 25px 25px 0;
+}
+
+.stars-ratings {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.formAvaliacao {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.marcada p {
+  width: 90%;
+}
+
+.finalizadas p {
+  width: 90%;
+}

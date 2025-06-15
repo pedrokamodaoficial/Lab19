@@ -1,0 +1,139 @@
+.nav-item:hover {
+  border-bottom: 3px solid #3a3a3a;
+  color: #3a3a3a;
+}
+
+.nav-item {
+  color: white;
+  border: none;
+  background: none;
+  padding: 5px 10px;
+  text-decoration: none;
+  justify-content: center;
+  text-shadow: 1px 1px 2px #0d6330;
+  border-bottom: 3px solid transparent;
+  transition: border-bottom 500ms, color 250ms;
+}
+
+.nav-button {
+  border: none;
+  color: white;
+  background: none;
+  padding: 5px 10px;
+  text-decoration: none;
+  justify-content: center;
+  text-shadow: 1px 1px 2px #0d6330;
+  border-bottom: 3px solid transparent;
+  transition: border-bottom 500ms, color 250ms;
+}
+
+.nav-text {
+  padding: 5px 10px;
+  text-decoration: none;
+  justify-content: center;
+  text-shadow: 1px 1px 2px #0d6330;
+}
+
+#chevron {
+  position: relative;
+  text-align: center;
+  padding: 12px;
+  margin-bottom: 6px;
+  height: 350px;
+  width: 100%;
+}
+
+#chevron:before {
+  content: "";
+  position: absolute;
+  top: -99px;
+  left: 0;
+  height: 100%;
+  width: 32%;
+  background: #129a4a;
+  transform: skew(0deg, 5deg);
+  z-index: 1;
+  border-radius: 0 0 90px 0;
+}
+
+#chevron:after {
+  /* Não mexe */
+  content: "";
+  /* Não mexe */
+  position: absolute;
+  /* Posição na vertical */
+  top: -136px;
+  /* Não mexe, se for mudar a horizontal, mexe no width */
+  right: 0;
+  height: 100%;
+  /* Ajusta cumprimento da barra */
+  width: 75%;
+  /* Muda cor do bagulho */
+  background: linear-gradient(264.87deg, #00ff68 -39.04%, #139548 98.37%);
+  /* Aqui rotaciona a barra */
+  transform: skew(0deg, -5deg);
+  /* Suavidade da borda */
+  border-radius: 0 0 0 65px;
+  z-index: 0;
+}
+
+img {
+  z-index: 2;
+}
+
+@media screen and (max-width: 1440px) {
+  #chevron:before {
+    content: "";
+    position: absolute;
+    top: -110px;
+    left: 0;
+    height: 100%;
+    width: 32%;
+    background: #129a4a;
+    transform: skew(0deg, 5deg);
+    z-index: 1;
+    border-radius: 0 0 50px 0;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  #chevron:before {
+    content: "";
+    position: absolute;
+    top: -120px;
+    left: 0;
+    height: 100%;
+    width: 32%;
+    background: #129a4a;
+    transform: skew(0deg, 5deg);
+    z-index: 1;
+    border-radius: 0 0 30px 0;
+  }
+  #chevron:after {
+    content: "";
+    position: absolute;
+    top: -136px;
+    right: 0;
+    height: 100%;
+    width: 75%;
+    background: linear-gradient(264.87deg, #00ff68 -39.04%, #139548 98.37%);
+    transform: skew(0deg, -5deg);
+    border-radius: 0 0 0 65px;
+    z-index: 0;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #chevron:before {
+    content: "";
+    position: absolute;
+    top: -125px;
+    left: 0;
+    height: 100%;
+    width: 35%;
+    background: #119f4b;
+    transform: skew(0deg, 5deg);
+    z-index: 1;
+    border-radius: 0 0 30px 0;
+  }
+}

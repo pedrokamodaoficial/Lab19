@@ -1,0 +1,134 @@
+.consultas {
+  display: flex;
+  max-width: 1000px;
+  margin: 0 auto;
+  min-height: 500px;
+  align-items: flex-start;
+  justify-content: space-around;
+}
+
+@media screen and (max-width: 1024px) {
+  .consultas {
+    width: 700px;
+    flex-direction: column;
+    align-items: center;
+  }
+  .consulta2 {
+    margin-top: 2em;
+  }
+}
+
+.consultas p {
+  font-size: 24px;
+}
+
+.consultaAdmin {
+  display: flex;
+  text-align: center;
+  min-height: 250px;
+  align-items: center;
+  flex-direction: column;
+}
+
+.consulta2 {
+  display: flex;
+  text-align: center;
+  min-height: 250px;
+  align-items: center;
+  flex-direction: column;
+}
+
+.consultaAdmin h2 {
+  width: 400px;
+  font-size: 2.2em;
+  color: #fac710;
+  text-align: center;
+  margin-bottom: 0;
+  font-weight: bolder;
+  padding-bottom: 20px;
+  border-bottom: solid 6px #fac710;
+}
+
+.consulta2 h2 {
+  width: 400px;
+  font-size: 2.2em;
+  color: #139548;
+  text-align: center;
+  margin-bottom: 0;
+  font-weight: bolder;
+  padding-bottom: 20px;
+  border-bottom: 6px solid #139548;
+}
+
+.marcadaAdmin {
+  width: 500px;
+  height: 250px;
+  color: black;
+  font-size: 2em;
+  padding-top: 1em;
+  max-height: 250px;
+  border-radius: 25px 0 0 25px;
+}
+
+.finalizadasAdmin {
+  width: 500px;
+  display: flex;
+  height: 250px;
+  color: black;
+  font-size: 2em;
+  padding-top: 1em;
+  max-height: 250px;
+  border-radius: 25px;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.finalizadasAdmin .btn {
+  top: -5px;
+  left: 177px;
+  width: 146.3px;
+  position: relative;
+  border-color: #139548 !important;
+  background-color: #139548 !important;
+  border-radius: 15px 0px 25px 15px !important;
+}
+
+.consulta2Admin div:nth-child(2n + 3) {
+  background-color: #e6e6e6;
+  border-radius: 0px 25px 25px 0;
+}
+
+.consultaAdmin div:nth-child(2n + 0) {
+  background-color: #e6e6e6;
+  border-radius: 25px 0 0 25px;
+}
+
+.consulta2Admin {
+  display: flex;
+  text-align: center;
+  min-height: 250px;
+  align-items: center;
+  flex-direction: column;
+}
+
+.consultaAdmin .btn {
+  top: -20px;
+  right: 177px;
+  width: 146.3px;
+  position: relative;
+  border-color: #fac710 !important;
+  background-color: #fac710 !important;
+  border-radius: 0px 15px 15px 25px !important;
+}
+
+.consulta2Admin h2 {
+  width: 400px;
+  font-size: 2.2em;
+  color: #139548;
+  text-align: center;
+  margin-bottom: 0;
+  font-weight: bolder;
+  padding-bottom: 20px;
+  border-bottom: solid 6px #139548;
+}

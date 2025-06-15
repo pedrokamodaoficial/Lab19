@@ -1,0 +1,139 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik&display=swap");
+* {
+  font-family: "Rubik", sans-serif;
+  scroll-behavior: smooth;
+}
+::-webkit-scrollbar-track {
+  border-radius: 10px;
+  background-color: #f5f5f5;
+}
+
+::-webkit-scrollbar {
+  width: 12px;
+  background-color: #f5f5f5;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background-color: #f3a71a;
+}
+
+.btn {
+  background-color: #f3a71a !important;
+  border-color: #f3a71a !important;
+}
+
+.img {
+  display: flex;
+}
+
+.maps {
+  display: flex;
+  text-align: center;
+}
+
+.maps img {
+  width: 400px;
+  height: 350px;
+  padding: 10px;
+}
+
+.numCovid {
+  display: flex;
+  width: 150px;
+  height: 50px;
+  color: white;
+  font-size: 1.5em;
+  align-content: center;
+  border-radius: 10px;
+  justify-content: center;
+  background-color: #f3a71a;
+}
+
+.numCovid {
+  text-align: center;
+  line-height: 50px;
+}
+
+.infoCovid {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.infoCovid h6 {
+  margin-top: 1em;
+  font-size: 1.1em;
+}
+
+.informacoesCovid {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 3em;
+  text-align: center;
+  align-items: flex-start;
+  justify-content: space-around;
+}
+
+.info {
+  height: 100%;
+  display: flex;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  max-width: 1200px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  background-color: #e6e6e6;
+}
+
+.cardinfo {
+  width: 305px;
+  border: none;
+  background: none;
+}
+
+.about {
+  min-height: 475px;
+  padding-top: 3em;
+  padding-bottom: 3em;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap-reverse;
+  text-align: center;
+}
+
+.about h4 {
+  font-weight: bolder;
+  color: #3a3a3a;
+}
+
+.about p {
+  color: #3a3a3a;
+  font-size: 1.2em;
+}
+
+.about .text {
+  max-width: 400px;
+}
+
+.map {
+  max-width: 400px;
+}
+
+.info img {
+  width: 75%; 
+  height: auto;
+  margin: auto;
+}
+
+@media screen and (max-width: 768px) {
+  .info {
+    flex-wrap: wrap;
+  }
+  .cardinfo {
+    margin: 30px;
+  }
+}

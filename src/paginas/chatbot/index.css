@@ -1,0 +1,74 @@
+.chatbot {
+    display: flex;
+    margin: 0 auto;
+    max-width: 1200px;
+    position: relative;
+    margin-top: -280px;
+    z-index: 1;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.layout1 {
+    width: 898px;
+    height: 662px;
+    background: #c4c4c4;
+    border-radius: 26px;
+    margin: auto;
+    margin-top: 100px;
+    position: relative;
+}
+
+.layout2 {
+    margin-top: 45px;
+    margin-left: 25px;
+    width: 846px;
+    height: 580px;
+    background: #e6e6e6;
+    border-radius: 31px;
+    position: absolute;
+}
+
+.layout3 {
+    width: 780px;
+    height: 509px;
+    background: #ffffff;
+    border-radius: 13px;
+    margin-top: 35px;
+    margin-left: 35px;
+    position: absolute;
+}
+
+.imgCB {
+    display: flex;
+    justify-content: space-between;
+}
+
+.Robot {
+    position: absolute;
+    left: 734.13px;
+    top: 304.68px;
+    -webkit-transform: matrix(-0.95, -0.22, -0.33, 0.97, 0, 0);
+    -ms-transform: matrix(-0.95, -0.22, -0.33, 0.97, 0, 0);
+    transform: matrix(-0.95, -0.22, -0.33, 0.97, 0, 0);
+}
+
+.Robo {
+    position: absolute;
+    width: 126.18px;
+    height: 127.98px;
+    left: -60px;
+    top: -80px;
+}
+
+h2 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.Text1 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content:center;
+}

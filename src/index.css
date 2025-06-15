@@ -1,0 +1,22 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+df-messenger {
+   --df-messenger-bot-message: #599b5c;
+   --df-messenger-button-titlebar-color: #ffa600;
+   --df-messenger-chat-background-color: #e9e7e7;
+   --df-messenger-font-color: white;
+   --df-messenger-send-icon: #ffa600;
+   --df-messenger-user-message: #479b3d;
+  }

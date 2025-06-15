@@ -1,0 +1,318 @@
+.usuario {
+  align-content: space-between;
+}
+
+.usuario h1 {
+  z-index: 99;
+}
+
+.modalText {
+  display: flex;
+}
+
+.modalText p {
+  line-height: 28px;
+  padding: 0 3px 0 0;
+}
+
+.perfilContainer {
+  display: flex;
+  height: 860px;
+  justify-content: space-around;
+}
+
+.perfilConsultas {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+  text-transform: capitalize;
+}
+
+.perfilConsulta h2 {
+  width: 400px;
+  font-size: 2em;
+  color: #fac710;
+  margin-bottom: 0;
+  margin-left: 50px;
+  text-align: center;
+  font-weight: bolder;
+  padding-bottom: 20px;
+}
+
+.perfilConsulta a {
+  margin: auto;
+  width: 300px;
+  display: flex;
+  text-decoration: none;
+  justify-content: center;
+}
+
+.marcadaPerfil {
+  width: 500px;
+  display: flex;
+  height: 250px;
+  color: black;
+  font-size: 1.5em;
+  padding-top: 10px;
+  max-height: 250px;
+  align-items: center;
+  border-radius: 25px;
+  flex-direction: column;
+  justify-content: center;
+  height: 150px !important;
+  text-transform: capitalize;
+  background-color: #f4f6f5;
+}
+
+.consultasFinalizadas {
+  border: none;
+  height: 50px;
+  width: 300px;
+  outline: none;
+  display: flex;
+  color: white;
+  margin-top: 1em;
+  font-size: 24px;
+  align-items: center;
+  justify-content: center;
+  background-color: #139548;
+  border-radius: 0 10px 25px 10px;
+}
+
+.consultasFinalizadas a {
+  text-decoration: none;
+  text-align: center;
+}
+
+.consultasFinalizadas a:link {
+  color: white;
+}
+
+/* link que foi visitado */
+
+.consultasFinalizadas a:visited {
+  color: white;
+}
+
+/* mouse over */
+
+.consultasFinalizadas a:hover {
+  color: white;
+}
+
+/* link selecionado */
+
+.consultasFinalizadas a:active {
+  color: white;
+}
+
+.sintomas h3 {
+  width: 300px;
+  font-size: 1.6em;
+  color: #139548;
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 0;
+  font-weight: bolder;
+  padding-bottom: 10px;
+  border-bottom: 4px solid #139548;
+}
+
+.sintomas h2 {
+  text-align: center;
+}
+
+.column {
+  display: flex;
+  height: 740px;
+  flex-direction: column;
+}
+
+.cardTitle {
+  width: 80%;
+  font-size: 28px;
+  color: #139548;
+  font-weight: 900;
+  line-height: 40px;
+  padding-top: 10px;
+  text-align: center;
+  /* border-radius: 25px 25px 0 0;
+  background-color: #f4f6f5; */
+  border-bottom: 3px solid #139548;
+}
+
+.cardTitleDados {
+  width: 80%;
+  display: flex;
+  font-size: 28px;
+  color: #139548;
+  font-weight: 900;
+  line-height: 40px;
+  padding-top: 10px;
+  text-align: center;
+  align-items: center;
+  justify-content: space-between;
+  /* border-radius: 25px 25px 0 0;
+  background-color: #f4f6f5; */
+  border-bottom: 3px solid #139548;
+  transition: rotate(90deg) 500ms;
+}
+
+.cardTitleDados.is-open svg {
+  transform: rotate(90deg);
+  transition: rotate(90deg) 500ms;
+}
+
+.cardTitleDados:hover {
+  cursor: pointer;
+}
+
+.dados {
+  width: 500px;
+  display: flex;
+  margin-top: 20px;
+  align-items: center;
+  border-radius: 25px;
+  flex-direction: column;
+  justify-content: flex-start;
+  background-color: #f4f6f5;
+}
+
+.dados input {
+  border-bottom: 2px solid #fac710;
+}
+
+.dados input:focus {
+  border-bottom: 2px solid #fac710;
+}
+
+.dadosClosed input {
+  border-bottom: 2px solid #fac710;
+}
+
+.dadosClosed input:focus {
+  border-bottom: 2px solid #fac710;
+}
+
+.dadosClosed {
+  width: 500px;
+  display: flex;
+  margin-top: 20px;
+  align-items: center;
+  border-radius: 25px;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.dadosInner {
+  width: 500px;
+  height: 320px;
+  background-color: #f4f6f5;
+}
+
+.dadosOuter {
+  width: 500px;
+  height: 320px;
+  display: flex;
+  align-items: center;
+  border-radius: 25px;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #f4f6f5;
+}
+
+.editardados {
+  width: 450px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.cards {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.ultimosSintomas {
+  width: 500px;
+  padding: 1em;
+  display: flex;
+  height: 740px;
+  text-align: center;
+  align-items: center;
+  border-radius: 25px;
+  flex-direction: column;
+  background-color: #f4f6f5;
+}
+
+.formInput {
+  margin: 0 auto;
+  width: 80%;
+  border: none;
+  outline: none;
+  color: white;
+  border-top-style: hidden;
+  border-left-style: hidden;
+  border-right-style: hidden;
+  border-bottom-style: groove;
+  background-color: #139548;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+  border-bottom: 2px solid white;
+}
+
+.formInput::-webkit-calendar-picker-indicator {
+  filter: invert(65%);
+}
+
+.formLabel {
+  color: #139548;
+  font-weight: 900;
+  margin: 15px 0 5px 45px;
+}
+
+.popoverContent {
+  height: 50px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.popoverContent .btn {
+  width: 70px;
+}
+.btnPopoverGreen {
+  border-color: #139548 !important;
+  background-color: #139548 !important;
+}
+
+.popover-basic {
+  margin: 10px;
+}
+
+.btnOpenPopover {
+  width: 25%;
+  height: 45px;
+  border: none;
+  font-weight: 900;
+  outline: none;
+  color: white;
+  font-size: 1.2em;
+  border-radius: 15px;
+  background-color: #f3a71a;
+}
+
+.btnOpenPopoverSenha {
+  width: 35%;
+  height: 45px;
+  border: none;
+  font-weight: 900;
+  outline: none;
+  color: white;
+  font-size: 1.2em;
+  border-radius: 15px;
+  background-color: #f3a71a;
+}

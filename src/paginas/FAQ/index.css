@@ -1,0 +1,11 @@
+.imgBanner {
+    display: flex;
+    margin: 0 auto;
+    max-width: 1200px;
+    position: relative;
+    margin-top: -280px;
+    z-index: 1;
+    justify-content: space-between;
+    align-items: center;
+    color: #E5E5E5;
+}
